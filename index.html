@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithm Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sorting Algorithm Visualizer</h1>
+    <p>Learn how sorting algorithms arrange numbers.</p>
+
+    <input id="numbers" value="45, 12, 30, 8, 25, 60"
+           placeholder="Enter numbers separated by commas">
+
+    <div class="buttons">
+        <button onclick="generateBars()">Generate</button>
+        <button onclick="bubbleSort()">Bubble Sort</button>
+        <button onclick="selectionSort()">Selection Sort</button>
+    </div>
+
+    <div id="bars"></div>
+    <p id="message">Enter numbers and choose an algorithm.</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
