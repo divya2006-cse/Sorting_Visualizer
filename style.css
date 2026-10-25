@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f1f5f9;
+    padding: 25px;
+}
+
+h1 {
+    color: #1e3a8a;
+}
+
+input {
+    width: 80%;
+    max-width: 500px;
+    padding: 12px;
+    margin: 15px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+#bars {
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 8px;
+    margin: 30px auto;
+}
+
+.bar {
+    background: #38bdf8;
+    flex: 1;
+    max-width: 65px;
+    min-width: 10px;
+    color: #102a43;
+    font-size: 12px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border-radius: 5px 5px 0 0;
+}
+
+#message {
+    font-weight: bold;
+    color: #1e3a8a;
+}
